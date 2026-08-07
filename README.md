@@ -1,4 +1,4 @@
-# chat-router-service
+# Chat Routing & Access Service
 
 Small TypeScript backend for routing and access decisions in chat-based applications.
 
@@ -91,16 +91,13 @@ Example response:
 
 ## Endpoints
 
-### `GET /healthz`
-
+`GET /healthz`
 Health probe.
 
-### `POST /v1/router-decision`
-
+`POST /v1/router-decision`
 Primary endpoint.
 
-### `POST /v1/access-decision`
-
+`POST /v1/access-decision`
 Backward-compatible alias.
 
 ## Repository Layout
